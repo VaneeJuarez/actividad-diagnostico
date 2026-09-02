@@ -1,0 +1,45 @@
+:root {
+  --marca: #0d6efd;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  letter-spacing: .5px;
+}
+
+.producto-img {
+  width: 100%;
+  object-fit: contain;
+  background-color: #f1f3f5;
+}
+
+.producto-precio {
+  font-weight: 700;
+}
+
+.estrellas {
+  color: #ffc107;
+  font-size: .9rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767.98px) {
+  .producto-img {
+    height: 96px;
+    padding: .5rem;
+    border-top-left-radius: var(--bs-border-radius);
+    border-bottom-left-radius: var(--bs-border-radius);
+  }
+}
+
+@media (min-width: 768px) {
+  .producto-img {
+    height: 180px;
+    padding: 1rem;
+    border-top-left-radius: var(--bs-border-radius);
+    border-top-right-radius: var(--bs-border-radius);
+  }
+}
